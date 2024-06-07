@@ -30,5 +30,10 @@ export class HeroComponent {
   resetForm(){
     this.name="ironMan";
     this.age=45;
-  }
+
+    //evitar este tipo de cosas
+  //   document.querySelectorAll('h1')!.forEach(element => {
+  //     element.innerHTML='<h1>Desde Angular</h1>';
+  //   })
+}
 }
