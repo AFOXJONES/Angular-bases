@@ -25,6 +25,7 @@ export class ListComponent {
 
   // onDeleteCharacter(index:number):void{
     onDeleteCharacter(id?:string):void{
+      console.log(id)
 //TODO emitir el ID del personaje
   if(!id)return;
 
