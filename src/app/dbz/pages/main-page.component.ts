@@ -22,5 +22,13 @@ export class MainPageComponent{
   onNewCharacter(character:Character):void{
     console.log(character)
 
+    // this.characters.unshift(character);
+    this.characters.push(character);
+  }
+
+  onDeleteCharacter(index:number):void{
+
+    console.log('Si')
+    this.characters.splice(index,1);
   }
 }
